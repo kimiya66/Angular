@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Usecase-list</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="template/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="template/css/homepage.css" rel="stylesheet">
+  
+</head>
+
+
+<body ng-app="ngCards" ng-controller="cardsController" lang="de">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Usecase list</a>
+            </div>
+           
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                <div class="row carousel-holder">
+
+                    <div class="col-md-12">
+                    <h3 style="font:;color: darkblue;">Here is the list of all available Usecases. click on <strong>milestone</strong> of
+                    each usecase to see the timeline of its implementaion.</h3>
+                  
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                  
+
+                    <div class="col-sm-4 col-lg-4 col-md-4" ng-repeat = "card in cards">
+                        <div class="thumbnail" style="height:400px;">
+                            <img src="images/{{ card.image }}.jpg" style="width: 320px; height:150px;" alt="">
+                            <div class="caption" style="float:left;height:350px;">
+                                <h3>{{ card.title }}</h3>
+                                 <p ng-if="card.milestones == ' '" style="color: blue"> No milestone available for this usecase!!</p>
+                                <p ng-if="card.milestones != ' '"><a href="{{ card.milestones }}.html">milestones</a></p>
+                                <p><strong>Description:</strong>{{ card.body }}</p>
+                            </div>
+                     
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p></p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="template/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="template/js/bootstrap.min.js"></script>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script type="text/javascript" src="bower/bower_components/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/cardsFactory.js"></script>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+</html>

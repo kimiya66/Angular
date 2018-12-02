@@ -1,0 +1,24 @@
+{
+  "name": "bower",
+  "authors": [
+    "kimiya <kimia.beheshti@tum.de>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-material": "^1.1.1",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "hammerjs": "^2.0.8"
+  }
+}

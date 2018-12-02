@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9eb221b3-9ec4-49e2-bd1c-100ae1f9120b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ng-cardUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/css/usecase-template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bootsrap/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-animate/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-animate/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-animate/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-animate/angular-animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-animate/angular-animate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-animate/angular-animate.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-animate/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-animate/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-animate/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-aria/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-aria/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-aria/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-aria/angular-aria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-aria/angular-aria.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-aria/angular-aria.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-aria/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-aria/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-aria/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/angular-material-mocks.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/angular-material.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/angular-material.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/angular-material.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/angular-material.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/angular-material.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/layouts/angular-material.layout-attributes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/layouts/angular-material.layout-attributes.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/layouts/angular-material.layout-attributes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/layouts/angular-material.layouts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/layouts/angular-material.layouts.ie_fixes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/layouts/angular-material.layouts.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/layouts/angular-material.layouts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/autocomplete/autocomplete-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/autocomplete/autocomplete-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/autocomplete/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/autocomplete/autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/autocomplete/autocomplete.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/autocomplete/autocomplete.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/backdrop/backdrop-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/backdrop/backdrop-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/backdrop/backdrop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/backdrop/backdrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/backdrop/backdrop.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/backdrop/backdrop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/bottomSheet/bottomSheet.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/button/button-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/button/button-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/button/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/button/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/button/button.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/button/button.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/card/card-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/card/card-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/card/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/card/card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/card/card.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/card/card.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/checkbox/checkbox-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/checkbox/checkbox-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/checkbox/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/checkbox/checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/checkbox/checkbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/checkbox/checkbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/chips/chips-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/chips/chips-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/chips/chips.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/chips/chips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/chips/chips.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/chips/chips.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/colors/colors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/colors/colors.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/content/content-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/content/content-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/content/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/content/content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/content/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/content/content.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/core/core-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/core/core-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/core/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/core/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/core/core.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/core/core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/core/default-theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/datepicker/datepicker-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/datepicker/datepicker-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/datepicker/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/datepicker/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/datepicker/datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/datepicker/datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/dialog/dialog-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/dialog/dialog-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/dialog/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/dialog/dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/dialog/dialog.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/dialog/dialog.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/divider/divider-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/divider/divider-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/divider/divider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/divider/divider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/divider/divider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/divider/divider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/fabActions/fabActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/fabActions/fabActions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/fabSpeedDial/fabSpeedDial.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/fabToolbar/fabToolbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/fabTrigger/fabTrigger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/fabTrigger/fabTrigger.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/gridList/gridList-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/gridList/gridList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/gridList/gridList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/gridList/gridList.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/gridList/gridList.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/icon/icon-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/icon/icon-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/icon/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/icon/icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/icon/icon.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/icon/icon.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/input/input-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/input/input-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/input/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/input/input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/input/input.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/input/input.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/list/list-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/list/list-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/list/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/list/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/list/list.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/list/list.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/menu/menu-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/menu/menu-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/menu/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/menu/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/menu/menu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/menu/menu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/menuBar/menuBar-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/menuBar/menuBar-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/menuBar/menuBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/menuBar/menuBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/menuBar/menuBar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/menuBar/menuBar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/navBar/navBar-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/navBar/navBar-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/navBar/navBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/navBar/navBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/navBar/navBar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/navBar/navBar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/panel/panel-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/panel/panel-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/panel/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/panel/panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/panel/panel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/panel/panel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/progressCircular/progressCircular-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/progressCircular/progressCircular-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/progressCircular/progressCircular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/progressCircular/progressCircular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/progressCircular/progressCircular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/progressCircular/progressCircular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/progressLinear/progressLinear-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/progressLinear/progressLinear-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/progressLinear/progressLinear.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/progressLinear/progressLinear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/progressLinear/progressLinear.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/progressLinear/progressLinear.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/radioButton/radioButton-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/radioButton/radioButton-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/radioButton/radioButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/radioButton/radioButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/radioButton/radioButton.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/radioButton/radioButton.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/select/select-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/select/select-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/select/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/select/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/select/select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/select/select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/showHide/showHide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/showHide/showHide.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/sidenav/sidenav-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/sidenav/sidenav-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/sidenav/sidenav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/sidenav/sidenav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/sidenav/sidenav.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/sidenav/sidenav.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/slider/slider-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/slider/slider-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/slider/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/slider/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/slider/slider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/slider/slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/sticky/sticky.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/sticky/sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/sticky/sticky.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/sticky/sticky.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/subheader/subheader-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/subheader/subheader-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/subheader/subheader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/subheader/subheader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/subheader/subheader.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/subheader/subheader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/swipe/swipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/swipe/swipe.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/switch/switch-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/switch/switch-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/switch/switch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/switch/switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/switch/switch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/switch/switch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tabs/tabs-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tabs/tabs-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tabs/tabs-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tabs/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tabs/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tabs/tabs.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tabs/tabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/textField/textField-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/textField/textField.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/textField/textField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/toast/toast-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/toast/toast-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/toast/toast.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/toast/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/toast/toast.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/toast/toast.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/toolbar/toolbar-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/toolbar/toolbar-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/toolbar/toolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/toolbar/toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/toolbar/toolbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/toolbar/toolbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tooltip/tooltip-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tooltip/tooltip-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tooltip/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tooltip/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tooltip/tooltip.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/tooltip/tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/virtualRepeat/virtualRepeat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/whiteframe/whiteframe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/whiteframe/whiteframe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/whiteframe/whiteframe.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/closure/whiteframe/whiteframe.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/autocomplete/autocomplete-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/autocomplete/autocomplete-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/autocomplete/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/autocomplete/autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/autocomplete/autocomplete.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/autocomplete/autocomplete.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/autocomplete/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/backdrop/backdrop-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/backdrop/backdrop-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/backdrop/backdrop.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/backdrop/backdrop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/backdrop/backdrop.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/backdrop/backdrop.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/backdrop/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/bottomSheet/bottomSheet-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/bottomSheet/bottomSheet.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/bottomSheet/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/button/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/button/button-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/button/button-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/button/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/button/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/button/button.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/button/button.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/card/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/card/card-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/card/card-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/card/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/card/card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/card/card.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/card/card.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/checkbox/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/checkbox/checkbox-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/checkbox/checkbox-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/checkbox/checkbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/checkbox/checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/checkbox/checkbox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/checkbox/checkbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/chips/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/chips/chips-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/chips/chips-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/chips/chips.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/chips/chips.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/chips/chips.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/chips/chips.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/colors/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/colors/colors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/colors/colors.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/content/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/content/content-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/content/content-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/content/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/content/content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/content/content.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/content/content.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/core/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/core/core-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/core/core-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/core/core.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/core/core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/core/core.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/core/core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/core/default-theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/datepicker/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/datepicker/datepicker-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/datepicker/datepicker-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/datepicker/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/datepicker/datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/datepicker/datepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/datepicker/datepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/dialog/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/dialog/dialog-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/dialog/dialog-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/dialog/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/dialog/dialog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/dialog/dialog.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/dialog/dialog.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/divider/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/divider/divider-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/divider/divider-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/divider/divider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/divider/divider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/divider/divider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/divider/divider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabActions/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabActions/fabActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabActions/fabActions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabSpeedDial/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabSpeedDial/fabSpeedDial.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabToolbar/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabToolbar/fabToolbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabTrigger/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabTrigger/fabTrigger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/fabTrigger/fabTrigger.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/gridList/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/gridList/gridList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/gridList/gridList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/gridList/gridList.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/gridList/gridList.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/icon/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/icon/icon-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/icon/icon-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/icon/icon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/icon/icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/icon/icon.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/icon/icon.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/input/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/input/input-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/input/input-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/input/input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/input/input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/input/input.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/input/input.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/list/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/list/list-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/list/list-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/list/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/list/list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/list/list.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/list/list.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menu/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menu/menu-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menu/menu-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menu/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menu/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menu/menu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menu/menu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menuBar/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menuBar/menuBar-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menuBar/menuBar-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menuBar/menuBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menuBar/menuBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menuBar/menuBar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/menuBar/menuBar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/navBar/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/navBar/navBar-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/navBar/navBar-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/navBar/navBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/navBar/navBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/navBar/navBar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/navBar/navBar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/panel/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/panel/panel-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/panel/panel-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/panel/panel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/panel/panel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/panel/panel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/panel/panel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressCircular/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressCircular/progressCircular-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressCircular/progressCircular-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressCircular/progressCircular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressCircular/progressCircular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressCircular/progressCircular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressCircular/progressCircular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressLinear/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressLinear/progressLinear-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressLinear/progressLinear-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressLinear/progressLinear.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressLinear/progressLinear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressLinear/progressLinear.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/progressLinear/progressLinear.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/radioButton/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/radioButton/radioButton-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/radioButton/radioButton-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/radioButton/radioButton.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/radioButton/radioButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/radioButton/radioButton.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/radioButton/radioButton.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/select/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/select/select-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/select/select-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/select/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/select/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/select/select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/select/select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/showHide/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/showHide/showHide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/showHide/showHide.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/sidenav/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/sidenav/sidenav-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/sidenav/sidenav-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/sidenav/sidenav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/sidenav/sidenav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/sidenav/sidenav.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/sidenav/sidenav.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/slider/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/slider/slider-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/slider/slider-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/slider/slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/slider/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/slider/slider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/slider/slider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/sticky/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/sticky/sticky.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/sticky/sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/sticky/sticky.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/sticky/sticky.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/subheader/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/subheader/subheader-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/subheader/subheader-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/subheader/subheader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/subheader/subheader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/subheader/subheader.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/subheader/subheader.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/swipe/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/swipe/swipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/swipe/swipe.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/switch/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/switch/switch-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/switch/switch-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/switch/switch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/switch/switch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/switch/switch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/switch/switch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tabs/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tabs/tabs-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tabs/tabs-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tabs/tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tabs/tabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tabs/tabs.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tabs/tabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/textField/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/textField/textField-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/textField/textField-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/textField/textField.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/textField/textField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/textField/textField.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/textField/textField.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toast/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toast/toast-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toast/toast-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toast/toast.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toast/toast.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toast/toast.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toast/toast.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toolbar/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toolbar/toolbar-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toolbar/toolbar-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toolbar/toolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toolbar/toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toolbar/toolbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/toolbar/toolbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tooltip/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tooltip/tooltip-default-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tooltip/tooltip-default-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tooltip/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tooltip/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tooltip/tooltip.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/tooltip/tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/virtualRepeat/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/virtualRepeat/virtualRepeat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/whiteframe/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/whiteframe/whiteframe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/whiteframe/whiteframe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/whiteframe/whiteframe.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/js/whiteframe/whiteframe.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/layouts/angular-material.layout-attributes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/layouts/angular-material.layout-attributes.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/layouts/angular-material.layouts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/layouts/angular-material.layouts.ie_fixes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/layouts/angular-material.layouts.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/scss/angular-material.layout-attributes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/scss/angular-material.layouts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/modules/scss/angular-material.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-material/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-messages/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-messages/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-messages/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-messages/angular-messages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-messages/angular-messages.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-messages/angular-messages.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-messages/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-messages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-messages/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-route/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-route/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-route/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-route/angular-route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-route/angular-route.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-route/angular-route.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-route/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-route/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular-route/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular/angular-csp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular/angular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular/angular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular/angular.min.js.gzip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular/angular.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/angular/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/hammerjs/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/hammerjs/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/hammerjs/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/hammerjs/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/hammerjs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/hammerjs/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/hammerjs/changelog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/hammerjs/hammer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/hammerjs/hammer.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/hammerjs/hammer.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bower/bower_components/hammerjs/hammer.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/vis-style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/smartHome.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3D-printing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/App development.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/CAD construction.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Product development.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/Virtualization.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/autonomous-driving.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/autonomousDriving.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/big-data.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/concept development.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gesture-control.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/gital-smart-technology-tree-word-cloud-isolated-on-background-metaphor-to-468173900.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/in-tech.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/oftware development.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/smart-home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/smarthome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/web.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/webdevelopmentbanner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/cardsFactory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/homeFactory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/css/homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/CHANGELOG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/img/structure_box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/img/structure_box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/img/structure_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/img/structure_dot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/img/structure_range.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/img/structure_range.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/files.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/symbols/Array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/symbols/_global_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/symbols/links.Timeline.ClusterGenerator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/symbols/links.Timeline.Item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/symbols/links.Timeline.ItemBox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/symbols/links.Timeline.ItemDot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/symbols/links.Timeline.ItemFloatingRange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/symbols/links.Timeline.ItemRange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/symbols/links.Timeline.StepDate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/symbols/links.Timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/jsdoc/symbols/src/timeline.js.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-apollo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-hs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-lisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-proto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-scala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-vb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-vhdl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-wiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/lang-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/sourcecode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/timeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/doc/timeline120x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example01_basis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example02_interactive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example03_performance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example04_format_dot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example05_format_custom_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example06_format_custom_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example07_confirm_changes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example08_calendar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example09_editable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example10_link_two_timelines.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example11_datasource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example12_millisecondscale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example13_grouping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example14_past_and_future.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example15_mobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example16_performance_grouping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example17_json_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example18_limit_range.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example19_bar_graph.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example20_custom_class_names.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example21_animate_visible_range.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example22_clustering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example24_individual_editable_events.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example25_new_item_type.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example26_localization.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example27_jquery_themeroller.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example28_custom_controls.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example29_stacking_with_grouping.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/example30_floatingRange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/img/Hardware-Mobile-Phone-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/img/attachment-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/img/blog-post-edit-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/img/comments-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/img/community-users-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/img/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/img/license_aesthetica-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/img/license_refresh-cl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/img/mail-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/img/notes-edit-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/img/product-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/img/truck-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/16/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/16/moveleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/16/moveright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/16/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/16/zoomin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/16/zoomout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/24/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/24/moveleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/24/moveright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/24/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/24/zoomin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/24/zoomout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/32/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/32/moveleft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/32/moveright.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/32/new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/32/zoomin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/32/zoomout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/cluster_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/deleteEvent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/buttonbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/icon_color_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/menuhoverbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_black_matte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_black_tie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_blitzer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_cupertino.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_dark_hive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_dot_luv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_eggplant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_excite_bike.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_flick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_hot_sneaks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_humanity.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_le_frog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_mint_choco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_overcast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_pepper_grinder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_smoothness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_south_street.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_start_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_sunny.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_swanky_purse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_trontastic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_ui_dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_ui_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/img/themeswitcher/theme_90_windoze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/lib/jquery-1.9.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/lib/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/lib/jquery.themeswitcher.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/timeline-locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/timeline-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/timeline-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline/timeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usecase3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/HISTORY.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/LICENSE-APACHE-2.0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/LICENSE-MIT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/acceptDeleteIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/addNodeIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/backIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/connectIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/cross.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/cross2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/deleteIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/downArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/editIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/leftArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/minus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/rightArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/upArrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/network/zoomExtends.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/img/timeline/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis-graph3d.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis-network.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis-timeline-graph2d.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/dist/vis.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/css/tipuesearch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/data/dataset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/data/dataview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/data/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/graph2d/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/graph3d/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/crossword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/crosswordStrong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/external-link-icons/external-link-icon-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/external-link-icons/external-link-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/external-link-icons/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/graph/graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/graph/graph120x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/graph3d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/graph3d120x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/timeline/timeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/timeline/timeline120x60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/vis_overview.odg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/img/vis_overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/docs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/googleAnalytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/ie-emulation-modes-warning.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/ie10-viewport-bug-workaround.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/jquery.highlight.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/jquery.url.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-apollo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-hs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-lisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-proto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-scala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-vb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-vhdl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-wiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/lang-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/smooth-scroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/tipuesearch.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/tipuesearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/tipuesearch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/js/toggleTable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/configure.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/edges.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/interaction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/manipulation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/nodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/network/physics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/docs/timeline/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/googleAnalytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/01_basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/02_bars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/03_groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/04_rightAxis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/05_bothAxis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/06_interpolation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/07_scrollingAndSorting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/08_performance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/09_external_legend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/10_barsSideBySide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/11_barsSideBySideGroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/12_customRange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/13_localization.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/14_toggleGroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/15_streaming_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/16_bothAxisTitles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/17_dynamicStyling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/18_scatterplot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/19_labels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/20_shading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph2d/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/01_basics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/02_camera.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/03_filter_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/04_animation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/05_line.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/06_moving_dots.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/07_dot_cloud_colors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/08_dot_cloud_size.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/09_mobile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/10_styling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/11_tooltips.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/12_custom_labels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/csv2array.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/csv2datatable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/datasource.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/datasource.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/playground.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/playground.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-apollo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-css.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-hs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-lisp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-lua.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-ml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-proto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-scala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-sql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-vb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-vhdl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-wiki.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/lang-yaml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/prettify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/graph3d/playground/prettify/prettify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/basicUsage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/datasets.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/data/cellular_automata.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/data/computer_network.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/data/simple.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/dotLanguage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/dotPlayground.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/fsm.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/hello.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/process.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/screenshots/fsm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/screenshots/hello.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/screenshots/softmaint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/screenshots/traffic_lights.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/siblings.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/softmaint.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/traffic_lights.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/transparency.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/twopi2.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/unix.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dotLanguage/graphvizGallery/world.gv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/dynamicData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/importingFromGephi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/scalingCustom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/scalingNodesEdges.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/data/scalingNodesEdgesLabels.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/datasources/WorldCup2014.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/datasources/WorldCup2014.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/datasources/largeHierarchicalDataset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/edgeStyles/arrows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/edgeStyles/colors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/edgeStyles/dashes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/edgeStyles/smooth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/edgeStyles/smoothWorldCup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/events/interactionEvents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/events/physicsEvents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/events/renderEvents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/disassemblerExample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/lesMiserables.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/loadingBar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/neighbourhoodHighlight.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/nodeLegend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleApplications/worldCupPerformance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/exampleUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/indonesia/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-Fax-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-Laptop-1-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-Mobile-Phone-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-My-Computer-3-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-My-PDA-02-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-My-PDA-04-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-My-PDA-05-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-My-Phone-Picture-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Hardware-Printer-Blue-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Misc-Scanner-default-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Network-Drive-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Network-Internet-Connection-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/Network-Pipe-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/System-Firewall-2-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/System-Globe-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/refresh-cl/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Document-icon24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Document-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Document-icon48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Email-icon24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Email-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Email-icon48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Folder-icon24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Folder-icon32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Folder-icon48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Folder-icon64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Smiley-Angry-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/Smiley-Grin-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Administrator-Blue-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Administrator-Green-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Coat-Blue-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Coat-Green-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Coat-Red-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Executive-Green-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Preppy-Blue-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/User-Preppy-Red-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/img/soft-scraps-icons/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/labels/labelAlignment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/labels/labelBackground.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/labels/labelColorAndSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/labels/labelStroke.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/labels/multilineText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/hierarchicalLayout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/hierarchicalLayoutMethods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/hierarchicalLayoutUserdefined.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/hierarchicalLayoutWithoutPhysics.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/layout/randomSeed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/HTMLInNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/circularImages.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/colors.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/customGroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/icons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/imagesWithBorders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/shadows.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/shapes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/nodeStyles/shapesWithDashedBorders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/animationShowcase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/clustering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/clusteringByZoom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/configuration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/manipulation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/other/performance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/network/physics/physicsConfiguration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/basicUsage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/dataHandling/dataSerialization.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/dataHandling/loadExternalData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/customSnappingOfItems.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/editingItems.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/editingItemsCallbacks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/individualEditableItems.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/editing/updateDataOnEvent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/groups/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/groups/groupsEditable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/groups/groupsOrdering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/groups/subgroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/animateWindow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/clickToUse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/eventListeners.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/limitMoveAndZoom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/navigationMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/interaction/setSelection.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/backgroundAreas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/backgroundAreasWithGroups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/htmlContents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/itemOrdering.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/pointItems.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/items/rangeOverflowItem.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/customTimeBars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/dataAttributes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/dataAttributesAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/groupsPerformance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/hidingPeriods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/localization.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/performance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/requirejs/requirejs_example.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/requirejs/scripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/requirejs/scripts/require.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/rtl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/other/timezone.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/data/basic.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/data/wk2014.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/Hardware-Mobile-Phone-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/attachment-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/blog-post-edit-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/comments-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/community-users-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/license.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/license_aesthetica-2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/license_refresh-cl.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/mail-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/notes-edit-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/product-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/resources/img/truck-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/styling/axisOrientation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/styling/customCss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/styling/gridStyling.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/styling/itemClassNames.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vis/examples/timeline/styling/itemTemplates.html" afterDir="false" />
+    </list>
+    <ignored path="ng-cardUI.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ng-cardUI" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1535">
+              <caret line="110" column="48" selection-start-line="110" selection-start-column="48" selection-end-line="110" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/data.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/scripts/app.js" />
+        <option value="$PROJECT_DIR$/scripts/cardController.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/bower/bower_components/angular-animate/package.json" />
+      <path value="$PROJECT_DIR$/bower/bower_components/angular-aria/package.json" />
+      <path value="$PROJECT_DIR$/bower/bower_components/angular-material/package.json" />
+      <path value="$PROJECT_DIR$/bower/bower_components/angular-messages/package.json" />
+      <path value="$PROJECT_DIR$/bower/bower_components/angular-route/package.json" />
+      <path value="$PROJECT_DIR$/bower/bower_components/angular/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="726" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/seba project" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ng-cardUI/index.html" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9eb221b3-9ec4-49e2-bd1c-100ae1f9120b" name="Default" comment="" />
+      <created>1473186682490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1473186682490</updated>
+      <workItem from="1473186685545" duration="4403000" />
+      <workItem from="1473238402351" duration="1028000" />
+      <workItem from="1532257498106" duration="127000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5558000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="726" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39939025" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/data.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/cardController.js" />
+    <entry file="file://$PROJECT_DIR$/scripts/cribsFactory.js" />
+    <entry file="file://$PROJECT_DIR$/data/data.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/cribsFactory.js" />
+    <entry file="file://$PROJECT_DIR$/usecase1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/cardController.js" />
+    <entry file="file://$PROJECT_DIR$/data/data.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1535">
+          <caret line="110" column="48" selection-start-line="110" selection-start-column="48" selection-end-line="110" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

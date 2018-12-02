@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=2"> 
+  
+    <title>usecase 1-SmartHome</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="bootsrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="bootsrap/css/usecase-template.css" rel="stylesheet">
+
+
+<!-- load handlebars for templating, and create a template -->
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.4/handlebars.min.js"></script>
+  <script id="item-template" type="text/x-handlebars-template">
+    <table style="min-width=20px;">
+      <tr>
+        <td class="description">{{description}}</td>
+      </tr>
+      <tr>
+        <td><strong>Name-de: </strong></td></tr>
+        <tr><td>{{name_de}}</td></tr>
+        <tr>
+        <td><strong>Name-en:</strong></td></tr>
+        <tr><td>{{name_en}}</td></tr>
+    </table>
+  </script>
+
+
+<script src="vis/dist/vis.js"></script>
+<link href="vis/dist/vis.css" rel="stylesheet" type="text/css" /> 
+<link rel="stylesheet" type="text/css" href="css/vis-style.css">
+</head>
+
+
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Smart Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-3" ng-app="ngCards" ng-controller="homeController" lang="de">
+                <div class="lead">Milestones:</div> 
+                <div class="list-group" ng-repeat = "home in homes">
+            <div class="list-group-item" style="{{ home.style }}">
+              <p><strong>step: </strong>{{ home.id }}<br>
+              {{ home.description }}</p>
+            </div>
+            
+                </div>
+            </div>
+
+
+
+
+
+<div class="col-md-9">
+<p><font size="3">Here is a timeline of milestones for usecase1(Smart Home project). Click and drag to move the timeline, scroll to zoom the timeline.</font></p>
+
+<div id="visualization" style=" height: 1%;border:1px solid grey;">
+  
+</div>
+
+<script type="text/javascript">
+  // create a handlebars template
+  var source   = document.getElementById('item-template').innerHTML;
+  var template = Handlebars.compile(document.getElementById('item-template').innerHTML);
+
+  // DOM element where the Timeline will be attached
+  var container = document.getElementById('visualization');
+  
+  // Create a DataSet for timeline
+  var items = new vis.DataSet([
+  
+   {
+                id: '1',
+                description: 'Kick-off Workshop',
+                name_de: 'Kick-off Workshop',
+                name_en: 'Kick-off Workshop',
+                start: '2014-03-09',
+                end: '2014-03-10',
+                type: 'range',
+                style:'min-width:150px; background-color: #85C1E9;color: black;'
+
+               
+            },
+            {
+                id: '2',
+                description: 'Technologierecherche',
+                 name_de: 'Technologierecherche',
+                name_en: 'Technologierecherche',
+                start: '2014-03-10',
+                end: '2014-04-20',
+                style:'background-color: #52BE80;color: black;'
+                
+
+
+            },
+            {
+                id: 3,
+                description: 'Entwicklung Prototyp',
+                 name_de: 'Entwicklung Prototypp',
+                name_en: 'Entwicklung Prototyp',
+                start: '2014-04-15',
+                end: '2014-05-29',
+                type: 'range',
+                style:'background-color:  #f8c471 ; color: black;'  
+            },
+            {
+                id: '4',
+                description: 'Testing und Bug Fixing',
+                 name_de: 'Testing und Bug Fixing',
+                name_en: 'Testing und Bug Fixing',
+                start: '2014-05-25',
+                end: '2014-06-08',
+                type: 'range',
+                style: 'min-width:150px; background-color: #f1948a; color: black;'
+                
+            },
+            {
+                id: '5',
+                description: 'Übergabe & Support',
+                 name_de: 'Übergabe & Support',
+                name_en: 'Übergabe & Support',
+                start: '2014-06-07',
+                end: '2014-06-21',
+                type: 'range',
+                style:'min-width:150px; background-color: #e74c3c;color: black;'
+                
+            }
+              
+              ]);
+
+
+  // Configuration for the Timeline
+  var options = {
+
+    // specify a template for the items
+    template: template,
+    
+     orientation: 'both',
+      width: '100%',
+      height: '500px',
+         
+          style: "box",
+     editable: true,
+    margin: {
+      item: 20,
+      axis: 40
+    }
+  };
+
+
+  //create timeline
+   var timeline = new vis.Timeline(container);
+  timeline.setOptions(options);
+  timeline.setItems(items);
+
+
+</script>
+
+</div>
+        
+</div>
+</div>
+
+    
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                   <a href="index.html">Back To Home</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="bootsrap/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="bootsrap/js/bootstrap.min.js"></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.13.4/ui-bootstrap-tpls.min.js">
+</script>
+<script type="text/javascript" src="bower/bower_components/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+<script type="text/javascript" src="scripts/homeFactory.js"></script>
+
+</html>

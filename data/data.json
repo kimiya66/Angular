@@ -1,0 +1,93 @@
+[
+{
+        "title": "Smart Home",
+        "body": "The work we did for BSH in the field of 3D-Printing is a prime example of our ability to generate fresh and exciting ideas. With the help of various methodical workshops and the integration of current technological trends, we developed a variety of different parts to personalize household devices.",
+       "image": "smart-home",
+        "milestones": "usecase1"
+    },
+    {
+        "title": "Automomous Driving",
+        "body": "A quick kick-off and fast progress were crucial for this project. A team of Motius started within two weeks and developed important algorithms for autonomous driving within seven months.",
+        "image" : "autonomous-driving",
+        "milestones": "usecase2"
+    },
+    {
+        "title": "Talents for in-tech",
+        "body": "We worked on a number of different projects for the company in-tech ranging from the creation of circuit diagrams to software development. Some of the former students who took part in those projects are now employed by in-tech.",
+        "image" : "in-tech",
+        "milestones": "usecase3"
+    },
+    {
+        "title": "Autonomous driving",
+        "body": "We developed algorithms and highly precise navigation maps for autonomous cars for an automotive company. A three person team worked on the project for the duration of seven months. Besides the programming also test rides have been carried out.",
+        "image" : "autonomousDriving",
+        "milestones": " "
+    },
+    {
+        "title": "Smart Home",
+        "body": "We developed a Plug&amp;Play solution for household devices in order to be able to integrate them&nbsp;in the world of Smart Home. A three person team worked on the project for the duration of two months.",
+        "image": "smarthome",
+        "milestones": " "
+    },
+    {
+        "title": "3D Printing",
+        "body": "In this project, a two person team designed and constructed 3D-printable components for household devices. These components were successfully printed in small numbers at the end of the three month long project.",
+         "image": "3D-Printing",
+         "milestones": " "
+    },
+    {
+        "title": "Technology research and concept development",
+        "body": "Two of our staff members conducted a technology research in the field of thermoformed packaging for a mid-sized company. With the collected information a new fundamental concept was developed during the four month long project.",
+        "image": "concept development",
+        "milestones": " "
+    },
+    {
+        "title": "Gesture control",
+        "body": "Motius developed a new concept of an innovative gesture-controlled air conditioner with emphasis on cost-effective hardware. The underlying hardware and the three dimensional user interface were developed by a team of six over the course of 11 moths.",
+        "image": "gesture-control",
+        "milestones": " "
+    },
+    {
+        "title": "Web development",
+        "body": "We developed a web platform for a private customer for an innovative and collective display of health data from multiple systems. The three person team developed the platform within three months.",
+       "image": "web",
+        "milestones": " "
+    },
+    {
+        "title": "Big data",
+        "body": "We developed an Android and iOS app within three months for a company in the field of Big Data. Special attention was given to the organized representation and semantic output of all information from the data cluster.",
+       "image": "big-data",
+        "milestones": " "
+    },
+    {
+        "title": "CAD construction",
+        "body": "Motius produced in this project peripheral components for a diesel engine. Over the course of a year, the components were constructed according to the predefined modelling strategy. Also, production drawings, parts lists and approval documentations were created.",
+        "image": "CAD construction",
+        "milestones": " "
+    },
+    {
+        "title": "Virtualization",
+        "body": "Our five person project team developed a virtualization platform within eight months to simulate virtual machines. This platform allows the automated testing of Apps and software on different machine configurations.",
+        "image": "Virtualization",
+        "milestones": " "
+    },
+    {
+        "title": "Software development",
+        "body": "A team from Motius consisting of four members developed a new desktop application within five months to manage the process of scheduling and planning the test drives of new car generations. The application includes a self-developed NFC-system, allowing test drivers to log in and out before and after the test drives.",
+        "image": "oftware development",
+        "milestones": " "
+    },
+    {
+        "title": "App development",
+        "body": "A two person Motius team developed an iOS app in two months in the area of Smart Home. The app distinguishes itself by its innovative approach to usability and user experience. The app is the foundation for several other developments.",
+        "image": "App development",
+        "milestones": " "
+    },
+    {
+        "title": "Product development",
+        "body": "A Motius team is developing an automated bread making machine for Arabic Khubz-bread. From its conception to the production of prototypes, the project will last 9 months.",
+        "image": "product development",
+        "milestones": " "
+    }
+]
+      	

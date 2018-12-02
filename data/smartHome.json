@@ -1,0 +1,52 @@
+[
+            {
+                "id": 1,
+                "description": "Kick-off Workshop",
+                "name_de": "Kick-off Workshop",
+                "name_en": "Kick-off Workshop",
+                "start": "2014-03-09",
+                "end": "2014-03-10",
+                "type": "range",
+                "style": "min-width:150px; background-color: #85C1E9;color: black;"
+            },
+            {
+                "id": 2,
+                "description": "Technologierecherche",
+                "name_de": "Technologierecherche",
+                "name_en": "Technologierecherche",
+                "start": "2014-03-10",
+                "end": "2014-04-20",
+                 "type": "range",
+                "style": "background-color: #52BE80;color: black;"
+            },
+            {
+                "id": 3,
+                "description": "Entwicklung Prototyp",
+                "name_de": "Entwicklung Prototyp",
+                "name_en": "Entwicklung Prototyp",
+                "start": "2014-04-15",
+                "end": "2014-05-29",
+                 "type": "range",
+                "style": "background-color:  #f8c471 ; color: black;"
+            },
+            {
+                "id": 4,
+                "description": "Testing und Bug Fixing",
+                "name_de": "Testing und Bug Fixing",
+                "name_en": "Testing und Bug Fixing",
+                "start": "2014-05-25",
+                "end": "2014-06-08",
+                "type": "range",
+                "style": "min-width:150px; background-color: #f1948a; color: black;"
+            },
+            {
+                "id": 5,
+                "description": "Übergabe & Support",
+                "name_de": "Übergabe & Support",
+                "name_en": "Übergabe & Support",
+                "start": "2014-06-07",
+                "end": "2014-06-21",
+                 "type": "range",
+                "style": "min-width:150px; background-color: #e74c3c;color: black;"
+            }
+        ]
